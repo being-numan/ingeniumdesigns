@@ -3,6 +3,7 @@ import gsap from "gsap";
 import CustomEase from "gsap/CustomEase";
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-scroll';
+import logo from "../../assets/logo.png";
 
 gsap.registerPlugin(CustomEase);
 
@@ -140,7 +141,7 @@ const CustomMenu = () => {
               <a href="/" className="nav-logo-row">
                 <div className="bg-white rounded-lg p-2 w-20 shadow-md hover:shadow-lg transition-shadow duration-300">
                   <img
-                    src="/src/assets/logo.png"
+                    src={logo}
                     alt="Ingenium Designs Logo"
                     className="w-full h-full object-contain"
                   />
