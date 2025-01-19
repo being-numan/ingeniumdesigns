@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import design13 from '../../assets/design13.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -55,7 +56,7 @@ const AboutUs = () => {
           <div className="relative" ref={imageRef}>
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3] group">
               <img
-                src="/src/assets/design13.png"
+                src={design13}
                 alt="About Ingenium Designs"
                 className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
               />

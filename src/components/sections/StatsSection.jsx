@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowRight } from 'lucide-react';
+import design1 from '../../assets/design1.jpg';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -55,7 +56,7 @@ const StatsSection = () => {
           <div className="relative">
             <div className="aspect-[4/3] overflow-hidden">
               <img
-                src="src/assets/design1.jpg"
+                src={design1}
                 alt="Modern interior design"
                 className="w-full h-full object-cover opacity-90"
               />

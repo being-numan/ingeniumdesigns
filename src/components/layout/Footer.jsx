@@ -1,5 +1,6 @@
 import React from "react";
 import { Instagram, Linkedin, Facebook } from "lucide-react";
+import design10 from "../../assets/design10.png";
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
           <div className="relative">
             <div className="aspect-[16/10] rounded-xl overflow-hidden">
               <img
-                src="/src/assets/design10.png"
+                src={design10}
                 alt="Modern interior design"
                 className="w-full h-full object-cover"
               />

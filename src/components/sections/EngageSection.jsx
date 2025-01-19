@@ -1,5 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import design11 from "../../assets/design11.jpg";
+import design12 from "../../assets/design12.png";
 
 const ServiceCard = ({ title, description, image }) => (
   <div className="group relative overflow-hidden rounded-2xl">
@@ -42,12 +44,12 @@ const EngageSection = () => {
             <ServiceCard
               title="Interior Designs"
               description="Expert Interior and Landscape Design Services from Ingenium Designs"
-              image="/src/assets/design11.jpg"
+              image={design11}
             />
             <ServiceCard
               title="Landscape Designs"
               description="Stylish Interiors and Beautiful Landscapes: Ingenium Designs Professional Services"
-              image="/src/assets/design12.png"
+              image={design12}
             />
           </div>
         </div>

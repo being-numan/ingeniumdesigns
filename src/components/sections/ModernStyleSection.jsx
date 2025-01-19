@@ -1,5 +1,7 @@
 import React from 'react';
 import { Check } from 'lucide-react';
+import hardscaping from '../../assets/hardscaping.jpg';
+import softscape from '../../assets/softscape.jpg';
 
 const FeaturePoint = ({ children }) => (
   <div className="flex items-start gap-3">
@@ -26,7 +28,7 @@ const ModernStyleSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20 items-center">
           <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
             <img
-              src="/src/assets/hardscaping.jpg"
+              src={hardscaping}
               alt="Hardscaping"
               className="w-full h-full object-cover"
             />
@@ -82,7 +84,7 @@ const ModernStyleSection = () => {
 
           <div className="relative rounded-2xl overflow-hidden aspect-[4/3] order-1 md:order-2">
             <img
-              src="/src/assets/softscape.jpg"
+              src={softscape}
               alt="Softscaping"
               className="w-full h-full object-cover"
             />

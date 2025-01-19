@@ -1,53 +1,62 @@
 import React, { useState } from "react";
 import { ArrowRight, X } from "lucide-react";
+import design2 from "../../assets/design2.png";
+import design3 from "../../assets/design3.png";
+import design4 from "../../assets/design4.png";
+import design5 from "../../assets/design5.png";
+import design6 from "../../assets/design6.png";
+import design7 from "../../assets/design7.png";
+import design8 from "../../assets/design8.png";
+import design9 from "../../assets/design9.png";
+
 
 const collections = [
   {
     id: 1,
     name: "",
-    image: "/src/assets/design2.png",
+    image: design2,
     style: "col-span-1",
   },
   {
     id: 2,
     name: "",
-    image: "/src/assets/design3.png",
+    image: design3,
     style: "col-span-2",
   },
   {
     id: 3,
     name: "",
-    image: "/src/assets/design4.png",
+    image: design4,
     style: "col-span-1",
   },
   {
     id: 4,
     name: "",
-    image: "/src/assets/design5.png",
+    image: design5,
     style: "col-span-1",
   },
   {
     id: 5,
     name: " ",
-    image: "/src/assets/design6.png",
+    image: design6,
     style: "col-span-1",
   },
   {
     id: 6,
     name: "",
-    image: "/src/assets/design7.png",
+    image: design7,
     style: "col-span-1",
   },
   {
     id: 7,
     name: "",
-    image: "/src/assets/design8.png",
+    image: design8,
     style: "col-span-1",
   },
   {
     id: 8,
     name: "",
-    image: "/src/assets/design9.png",
+    image: design9,
     style: "col-span-1",
   },
 ];
